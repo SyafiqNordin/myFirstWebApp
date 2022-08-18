@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  cursor:grabbing;
+}
+
+.App-logo {
+  margin-bottom: 30px;
+  height: 20vmin;
+  width: 20vmin
+}
+.welcome{
+  font-family:'Times New Roman';
+  text-shadow: 5px 5px 10px blue;
+  
+}
+
+.title{
+  font-size: 20px;
+  
+}
+.thumbnail{
+  height: 100px;
+}
+.main{
+  display: inline-flex;
+}
+
+
+
+.App-header {
+  background-color: rgb(2, 156, 149);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.field{
+  margin-right: 100px;
+}
+.Main-Card{
+  height: 400px;
+  width: 450px;
+  background-color: rgb(27, 17, 170);
+  
+}
+
+.inputtext{
+  height: 60px;
+  width: 400px;
+  
+}
+
+.p-buttonset{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 110px;
+  height: 60px;
+  width: 400px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
